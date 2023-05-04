@@ -112,11 +112,11 @@ body{
 }
 
 .btn-change:hover{
-    color:hsl(253, 68%, 77%) ;
+    color:hsl(261, 78%, 49%) ;
 }
 
 .cta:hover{
-    background-color:hsl(253, 68%, 77%) ;
+    background-color:hsl(261, 78%, 49%) ;
 }
 
 
@@ -137,6 +137,7 @@ body{
     font-size: 16px;
     cursor: pointer;
     transition: 300ms ease-in-out;
+    box-shadow: 0 1em 1em hsl(221, 50%, 83%)
 }
 
 
@@ -158,7 +159,12 @@ body{
 @media only screen and (min-width: 700px) {
     body {
       background-image: url("./images/pattern-background-desktop.svg");
-      background-repeat: repeat;
+      background-size: 100%;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-color:hsl(225, 100%, 98%) ;
+      display: flex;
+      align-items: center;
       
     }
   }
