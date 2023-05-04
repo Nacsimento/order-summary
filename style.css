@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 71px 24px;
+    gap: 42px;
+    background-color: white;
+    padding-bottom: 38px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+.hero{
+    width: 100%;
+    display: block;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    
+}
+
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 26px;
+    padding: 0px 25px;
+}
+.text h1{
+    font-size: 24px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 12px 16px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin: 0px 24px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.price h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.price p{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.icon img{
+    display: block;
+}
+
+.btn-change{
+    font-size: 14px;
+    font-weight: 900;
+    color:hsl(245, 75%, 52%) ;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.btn-change:hover{
+    color:hsl(253, 68%, 77%) ;
+}
+
+.cta:hover{
+    background-color:hsl(253, 68%, 77%) ;
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 16px;
+}
+
+.cta{
+    padding: 16px 2px;
+    border-radius: 12px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+
+.sec{
+    background-color: transparent;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+
+}
+
+.sec:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+      background-image: url("./images/pattern-background-desktop.svg");
+      background-repeat: repeat;
+      
+    }
+  }
